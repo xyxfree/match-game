@@ -1,0 +1,77 @@
+@media (min-width: 1336px) {
+    .back {
+        font-size: 5em;
+    }
+    .list-con li {
+        width: 20%;
+        padding: 20px;
+    }
+    .info {
+        padding: 13px 300px;
+    }
+}
+
+@media (max-width: 1335px) and (min-width: 1025px) {
+    .back {
+        font-size: 5em;
+    }
+    .list-con li {
+        width: 20%;
+        padding: 15px;
+    }
+    .wrap {
+        width: 70%;
+    }
+    main {
+        height: 75%;
+    }
+    .info {
+        padding: 13px 250px;
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 801px) {
+    .back {
+        font-size: 4em;
+    }
+    .list-con li {
+        width: 25%;
+        padding: 15px;
+    }
+    .wrap {
+        width: 90%;
+    }
+    main {
+        height: 80%;
+    }
+    .info {
+        padding: 13px 250px;
+        margin: 0.5rem 0;
+    }
+    .start-game {
+        transform: scale(1.2);
+        transform-origin: left top;
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width:800px) {
+    .back {
+        font-size: 3em;
+    }
+    .list-con li {
+        width: 25%;
+        padding: 10px;
+    }
+    main {
+        height: 70%;
+    }
+    .info {
+        padding: 13px 100px;
+        margin: 0.5rem 0;
+    }
+    .wrap {
+        width: 80%;
+    }
+}
